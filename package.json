@@ -1,4 +1,6 @@
-{
+"homepage": "https://github.com/Hariharansai930910/reactleetcode/tree/main",
+"scripts": {
+  {
   "name": "leetcodeflipcards",
   "version": "0.1.0",
   "private": true,
@@ -36,4 +38,6 @@
       "last 1 safari version"
     ]
   }
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
 }
